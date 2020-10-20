@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b05aeeff-0e51-4fc6-ba09-79c35e657a23" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1impzgnIN2EZRIpLRUfUbffd2iC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/For" />
+      <recent name="$PROJECT_DIR$/Numbers" />
+      <recent name="$PROJECT_DIR$/alright" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestArea in LearningGo/alright">
+    <configuration name="TestArea in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LearningGo" />
+      <working_directory value="$PROJECT_DIR$/alright" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="LearningGo/alright" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestArea\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestArea/circles in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LearningGo" />
+      <working_directory value="$PROJECT_DIR$/alright" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="LearningGo/alright" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestArea\E$/^\Qcircles\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSumAllTails/edge_cases in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LearningGo" />
+      <working_directory value="$PROJECT_DIR$/alright" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="LearningGo/alright" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSumAllTails\E$/^\Qedge_cases\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSumAll/suming_every_list in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LearningGo" />
+      <working_directory value="$PROJECT_DIR$/alright" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="LearningGo/alright" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSumAll\E$/^\Qsuming_every_list\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LearningGo" />
+      <working_directory value="$PROJECT_DIR$/alright" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="LearningGo/alright" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestArea in LearningGo/alright" />
+        <item itemvalue="Go Test.TestArea/circles in LearningGo/alright" />
+        <item itemvalue="Go Test.go test LearningGo/alright" />
+        <item itemvalue="Go Test.TestSumAll/suming_every_list in LearningGo/alright" />
+        <item itemvalue="Go Test.TestSumAllTails/edge_cases in LearningGo/alright" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1162" y="-143" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603057337104">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state x="-1162" y="-143" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603057337104" />
+    <state width="918" height="298" key="GridCell.Tab.0.bottom" timestamp="1603130695188">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state width="918" height="298" key="GridCell.Tab.0.bottom/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695188" />
+    <state width="918" height="298" key="GridCell.Tab.0.center" timestamp="1603130695187">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state width="918" height="298" key="GridCell.Tab.0.center/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695187" />
+    <state width="918" height="298" key="GridCell.Tab.0.left" timestamp="1603130695187">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state width="918" height="298" key="GridCell.Tab.0.left/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695187" />
+    <state width="918" height="298" key="GridCell.Tab.0.right" timestamp="1603130695187">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state width="918" height="298" key="GridCell.Tab.0.right/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695187" />
+    <state x="-1118" y="-166" key="SettingsEditor" timestamp="1602523378821">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state x="-1118" y="-166" key="SettingsEditor/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1602523378821" />
+  </component>
+</project>
