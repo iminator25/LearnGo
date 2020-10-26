@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05aeeff-0e51-4fc6-ba09-79c35e657a23" name="Default Changelist" comment="" />
+    <list default="true" id="b05aeeff-0e51-4fc6-ba09-79c35e657a23" name="Default Changelist" comment="expamles of reflection and recursion">
+      <change afterPath="$PROJECT_DIR$/Concour/Counter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concour/Counter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concour/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concour/server_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +40,11 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1impzgnIN2EZRIpLRUfUbffd2iC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,73 +65,75 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Concour" />
       <recent name="$PROJECT_DIR$/For" />
       <recent name="$PROJECT_DIR$/Numbers" />
       <recent name="$PROJECT_DIR$/alright" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestArea in LearningGo/alright">
-    <configuration name="TestArea in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestHandler/tells_store_to_cancel_work_if_request_is_cancelled in LearningGo/Concour">
+    <configuration name="TestCounter in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/alright" />
+      <working_directory value="$PROJECT_DIR$/Concour" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/alright" />
+      <package value="LearningGo/Concour" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestArea\E$" />
+      <pattern value="^\QTestCounter\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArea/circles in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCounter/runs_safely_concurrently in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/alright" />
+      <working_directory value="$PROJECT_DIR$/Concour" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/alright" />
+      <package value="LearningGo/Concour" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestArea\E$/^\Qcircles\E$" />
+      <pattern value="^\QTestCounter\E$/^\Qruns_safely_concurrently\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSumAllTails/edge_cases in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandler in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/alright" />
+      <working_directory value="$PROJECT_DIR$/Concour" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/alright" />
+      <package value="LearningGo/Concour" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSumAllTails\E$/^\Qedge_cases\E$" />
+      <pattern value="^\QTestHandler\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSumAll/suming_every_list in LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandler/simplest_case in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/alright" />
+      <working_directory value="$PROJECT_DIR$/Concour" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/alright" />
+      <package value="LearningGo/Concour" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSumAll\E$/^\Qsuming_every_list\E$" />
+      <pattern value="^\QTestHandler\E$/^\Qsimplest_case\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test LearningGo/alright" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandler/tells_store_to_cancel_work_if_request_is_cancelled in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/alright" />
+      <working_directory value="$PROJECT_DIR$/Concour" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/alright" />
+      <package value="LearningGo/Concour" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestHandler\E$/^\Qtells_store_to_cancel_work_if_request_is_cancelled\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestArea in LearningGo/alright" />
-        <item itemvalue="Go Test.TestArea/circles in LearningGo/alright" />
-        <item itemvalue="Go Test.go test LearningGo/alright" />
-        <item itemvalue="Go Test.TestSumAll/suming_every_list in LearningGo/alright" />
-        <item itemvalue="Go Test.TestSumAllTails/edge_cases in LearningGo/alright" />
+        <item itemvalue="Go Test.TestHandler/tells_store_to_cancel_work_if_request_is_cancelled in LearningGo/Concour" />
+        <item itemvalue="Go Test.TestHandler/simplest_case in LearningGo/Concour" />
+        <item itemvalue="Go Test.TestHandler in LearningGo/Concour" />
+        <item itemvalue="Go Test.TestCounter/runs_safely_concurrently in LearningGo/Concour" />
+        <item itemvalue="Go Test.TestCounter in LearningGo/Concour" />
       </list>
     </recent_temporary>
   </component>
@@ -111,30 +141,62 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Importing all of my learning code" />
+    <MESSAGE value="Adding pointer functionality" />
+    <MESSAGE value="adding dependancy injection functionality" />
+    <MESSAGE value="used select, go routines and http" />
+    <MESSAGE value="expamles of reflection and recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="expamles of reflection and recursion" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-1162" y="-143" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603057337104">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
     <state x="-1162" y="-143" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603057337104" />
-    <state width="918" height="298" key="GridCell.Tab.0.bottom" timestamp="1603130695188">
+    <state width="918" height="296" key="GridCell.Tab.0.bottom" timestamp="1603676703548">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="298" key="GridCell.Tab.0.bottom/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695188" />
-    <state width="918" height="298" key="GridCell.Tab.0.center" timestamp="1603130695187">
+    <state width="918" height="296" key="GridCell.Tab.0.bottom/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703548" />
+    <state width="798" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432075" />
+    <state width="918" height="296" key="GridCell.Tab.0.center" timestamp="1603676703547">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="298" key="GridCell.Tab.0.center/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695187" />
-    <state width="918" height="298" key="GridCell.Tab.0.left" timestamp="1603130695187">
+    <state width="918" height="296" key="GridCell.Tab.0.center/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703547" />
+    <state width="798" height="287" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
+    <state width="918" height="296" key="GridCell.Tab.0.left" timestamp="1603676703546">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="298" key="GridCell.Tab.0.left/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695187" />
-    <state width="918" height="298" key="GridCell.Tab.0.right" timestamp="1603130695187">
+    <state width="918" height="296" key="GridCell.Tab.0.left/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703546" />
+    <state width="798" height="287" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
+    <state width="918" height="296" key="GridCell.Tab.0.right" timestamp="1603676703548">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="298" key="GridCell.Tab.0.right/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603130695187" />
+    <state width="918" height="296" key="GridCell.Tab.0.right/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703547" />
+    <state width="798" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
     <state x="-1118" y="-166" key="SettingsEditor" timestamp="1602523378821">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
     <state x="-1118" y="-166" key="SettingsEditor/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1602523378821" />
+    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2" timestamp="1603654327175">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603654327175" />
+    <state x="880" y="260" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603255178989" />
+    <state x="-815" y="-104" width="670" height="676" key="search.everywhere.popup" timestamp="1603675153029">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state x="-815" y="-104" width="670" height="676" key="search.everywhere.popup/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603675153029" />
   </component>
 </project>
