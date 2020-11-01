@@ -2,6 +2,7 @@ package main
 
 import (
 	"testing"
+	"testing/quick"
 )
 
 func TestRomanNumerals(t *testing.T) {
@@ -62,6 +63,22 @@ var cases = []struct {
 	{"39 gets converted to XXXIX", 39, "XXXIX"},
 	{"2014 gets converted to MMXIV", 2014, "MMXIV"},
 	{"3999 gets converted to MMMCMXCIX", 3999, "MMMCMXCIX"},
+}
+
+func TestPropertiesOfConversion(t *testing.T) {
+	assertion := func(arabic int) bool {
+		if arabic > 3999 {
+			return true
+		}
+		t.Log("testing", arabic)
+		roman := ConvertToRoman(arabic)
+		fromRoman := ConvertToArabic(roman)
+		return fromRoman == arabic
+	}
+
+	if err := quick.Check(assertion, nil); err != nil {
+		t.Error("failed checks", err)
+	}
 }
 
 //t.Run("1 gets converted to I", func(t *testing.T) {
