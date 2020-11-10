@@ -19,12 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05aeeff-0e51-4fc6-ba09-79c35e657a23" name="Default Changelist" comment="expamles of reflection and recursion">
-      <change afterPath="$PROJECT_DIR$/Concour/Counter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concour/Counter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concour/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concour/server_test.go" afterDir="false" />
+    <list default="true" id="b05aeeff-0e51-4fc6-ba09-79c35e657a23" name="Default Changelist" comment="Propertey based tests added">
+      <change afterPath="$PROJECT_DIR$/Clock_API/clock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clock_API/function_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clock_test/clock_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/Mocking.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Mocking.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/Mocking_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Mocking_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/Property_based_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Property_based_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/RomanNumerals.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/RomanNumerals.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/Structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Structs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/Walk.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Walk.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/Walk_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Walk_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/dictionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dictionary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/dictionary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dictionary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/dinject.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dinject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/dinject_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dinject_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/hello_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/hello_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/structs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/structs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/sum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/sum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alright/wallet_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/wallet_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,75 +82,76 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Clock_test" />
+      <recent name="$PROJECT_DIR$/clock_API" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Concour" />
       <recent name="$PROJECT_DIR$/For" />
-      <recent name="$PROJECT_DIR$/Numbers" />
-      <recent name="$PROJECT_DIR$/alright" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestHandler/tells_store_to_cancel_work_if_request_is_cancelled in LearningGo/Concour">
-    <configuration name="TestCounter in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSecondHandVector in LearningGo/Clock_API">
+    <configuration name="TestSecondHandAt30Seconds in LearningGo/Clock_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/Concour" />
+      <working_directory value="$PROJECT_DIR$/Clock_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/Concour" />
+      <package value="LearningGo/Clock_test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCounter\E$" />
+      <pattern value="^\QTestSecondHandAt30Seconds\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCounter/runs_safely_concurrently in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSecondHandAtMidnight in LearningGo/Clock_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/Concour" />
+      <working_directory value="$PROJECT_DIR$/Clock_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/Concour" />
+      <package value="LearningGo/Clock_test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCounter\E$/^\Qruns_safely_concurrently\E$" />
+      <pattern value="^\QTestSecondHandAtMidnight\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHandler in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSecondHandAtMidnight in LearningGo/clock_API" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/Concour" />
+      <working_directory value="$PROJECT_DIR$/clock_API" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/Concour" />
+      <package value="LearningGo/clock_API" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandler\E$" />
+      <pattern value="^\QTestSecondHandAtMidnight\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHandler/simplest_case in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSecondHandVector in LearningGo/Clock_API" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/Concour" />
+      <working_directory value="$PROJECT_DIR$/Clock_API" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/Concour" />
+      <package value="LearningGo/Clock_API" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandler\E$/^\Qsimplest_case\E$" />
+      <pattern value="^\QTestSecondHandVector\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHandler/tells_store_to_cancel_work_if_request_is_cancelled in LearningGo/Concour" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSecondsInRadians in LearningGo/Clock_API" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
-      <working_directory value="$PROJECT_DIR$/Concour" />
+      <working_directory value="$PROJECT_DIR$/Clock_API" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LearningGo/Concour" />
+      <package value="LearningGo/Clock_API" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestHandler\E$/^\Qtells_store_to_cancel_work_if_request_is_cancelled\E$" />
+      <pattern value="^\QTestSecondsInRadians\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestHandler/tells_store_to_cancel_work_if_request_is_cancelled in LearningGo/Concour" />
-        <item itemvalue="Go Test.TestHandler/simplest_case in LearningGo/Concour" />
-        <item itemvalue="Go Test.TestHandler in LearningGo/Concour" />
-        <item itemvalue="Go Test.TestCounter/runs_safely_concurrently in LearningGo/Concour" />
-        <item itemvalue="Go Test.TestCounter in LearningGo/Concour" />
+        <item itemvalue="Go Test.TestSecondHandVector in LearningGo/Clock_API" />
+        <item itemvalue="Go Test.TestSecondsInRadians in LearningGo/Clock_API" />
+        <item itemvalue="Go Test.TestSecondHandAt30Seconds in LearningGo/Clock_test" />
+        <item itemvalue="Go Test.TestSecondHandAtMidnight in LearningGo/Clock_test" />
+        <item itemvalue="Go Test.TestSecondHandAtMidnight in LearningGo/clock_API" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +169,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Importing all of my learning code" />
@@ -158,45 +177,52 @@
     <MESSAGE value="adding dependancy injection functionality" />
     <MESSAGE value="used select, go routines and http" />
     <MESSAGE value="expamles of reflection and recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="expamles of reflection and recursion" />
+    <MESSAGE value="Implemented Context &amp; Select examples" />
+    <MESSAGE value="Roman numeral API" />
+    <MESSAGE value="Propertey based tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Propertey based tests added" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-740" y="11" key="#Notifications" timestamp="1604120119922">
+      <screen x="-1920" y="-345" width="1920" height="1080" />
+    </state>
+    <state x="-740" y="11" key="#Notifications/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604120119922" />
     <state x="-1162" y="-143" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603057337104">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
     <state x="-1162" y="-143" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603057337104" />
-    <state width="918" height="296" key="GridCell.Tab.0.bottom" timestamp="1603676703548">
+    <state width="918" height="295" key="GridCell.Tab.0.bottom" timestamp="1604980858865">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="296" key="GridCell.Tab.0.bottom/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703548" />
+    <state width="918" height="295" key="GridCell.Tab.0.bottom/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858865" />
     <state width="798" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432075" />
-    <state width="918" height="296" key="GridCell.Tab.0.center" timestamp="1603676703547">
+    <state width="918" height="295" key="GridCell.Tab.0.center" timestamp="1604980858864">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="296" key="GridCell.Tab.0.center/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703547" />
+    <state width="918" height="295" key="GridCell.Tab.0.center/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858864" />
     <state width="798" height="287" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
-    <state width="918" height="296" key="GridCell.Tab.0.left" timestamp="1603676703546">
+    <state width="918" height="295" key="GridCell.Tab.0.left" timestamp="1604980858864">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="296" key="GridCell.Tab.0.left/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703546" />
+    <state width="918" height="295" key="GridCell.Tab.0.left/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858864" />
     <state width="798" height="287" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
-    <state width="918" height="296" key="GridCell.Tab.0.right" timestamp="1603676703548">
+    <state width="918" height="295" key="GridCell.Tab.0.right" timestamp="1604980858865">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state width="918" height="296" key="GridCell.Tab.0.right/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603676703547" />
+    <state width="918" height="295" key="GridCell.Tab.0.right/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858865" />
     <state width="798" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
     <state x="-1118" y="-166" key="SettingsEditor" timestamp="1602523378821">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
     <state x="-1118" y="-166" key="SettingsEditor/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1602523378821" />
-    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2" timestamp="1603654327175">
+    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2" timestamp="1604120147480">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603654327175" />
+    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604120147480" />
     <state x="880" y="260" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603255178989" />
-    <state x="-815" y="-104" width="670" height="676" key="search.everywhere.popup" timestamp="1603675153029">
+    <state x="-815" y="-104" width="670" height="676" key="search.everywhere.popup" timestamp="1604978982722">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state x="-815" y="-104" width="670" height="676" key="search.everywhere.popup/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603675153029" />
+    <state x="-815" y="-104" width="670" height="676" key="search.everywhere.popup/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604978982722" />
   </component>
 </project>
