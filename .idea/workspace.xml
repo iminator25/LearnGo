@@ -20,28 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b05aeeff-0e51-4fc6-ba09-79c35e657a23" name="Default Changelist" comment="Propertey based tests added">
-      <change afterPath="$PROJECT_DIR$/Clock_API/clock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clock_API/function_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clock_test/clock_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clock_API/clockface/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/Mocking.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Mocking.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/Mocking_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Mocking_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/Property_based_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Property_based_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/RomanNumerals.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/RomanNumerals.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/Structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Structs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/Walk.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Walk.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/Walk_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/Walk_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/dictionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dictionary.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/dictionary_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dictionary_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/dinject.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dinject.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/dinject_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/dinject_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/hello_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/hello_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/structs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/structs_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/sum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/sum_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/wallet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alright/wallet_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Alright/wallet_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clock_API/clock.go" beforeDir="false" afterPath="$PROJECT_DIR$/Clock_API/clock.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +70,7 @@
       <recent name="$PROJECT_DIR$/For" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSecondHandVector in LearningGo/Clock_API">
+  <component name="RunManager" selected="Go Test.TestSecondHandAt30Seconds in LearningGo/Clock_test">
     <configuration name="TestSecondHandAt30Seconds in LearningGo/Clock_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LearningGo" />
       <working_directory value="$PROJECT_DIR$/Clock_test" />
@@ -147,9 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSecondHandAt30Seconds in LearningGo/Clock_test" />
         <item itemvalue="Go Test.TestSecondHandVector in LearningGo/Clock_API" />
         <item itemvalue="Go Test.TestSecondsInRadians in LearningGo/Clock_API" />
-        <item itemvalue="Go Test.TestSecondHandAt30Seconds in LearningGo/Clock_test" />
         <item itemvalue="Go Test.TestSecondHandAtMidnight in LearningGo/Clock_test" />
         <item itemvalue="Go Test.TestSecondHandAtMidnight in LearningGo/clock_API" />
       </list>
@@ -180,7 +161,8 @@
     <MESSAGE value="Implemented Context &amp; Select examples" />
     <MESSAGE value="Roman numeral API" />
     <MESSAGE value="Propertey based tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Propertey based tests added" />
+    <MESSAGE value="refactored and begining clock api" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored and begining clock api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-740" y="11" key="#Notifications" timestamp="1604120119922">
@@ -191,34 +173,34 @@
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
     <state x="-1162" y="-143" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1603057337104" />
-    <state width="918" height="295" key="GridCell.Tab.0.bottom" timestamp="1604980858865">
-      <screen x="-1920" y="-345" width="1920" height="1080" />
+    <state width="798" height="295" key="GridCell.Tab.0.bottom" timestamp="1605069437009">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="918" height="295" key="GridCell.Tab.0.bottom/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858865" />
-    <state width="798" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432075" />
-    <state width="918" height="295" key="GridCell.Tab.0.center" timestamp="1604980858864">
-      <screen x="-1920" y="-345" width="1920" height="1080" />
+    <state width="798" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605069437009" />
+    <state width="798" height="295" key="GridCell.Tab.0.center" timestamp="1605069437008">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="918" height="295" key="GridCell.Tab.0.center/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858864" />
-    <state width="798" height="287" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
-    <state width="918" height="295" key="GridCell.Tab.0.left" timestamp="1604980858864">
-      <screen x="-1920" y="-345" width="1920" height="1080" />
+    <state width="798" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605069437008" />
+    <state width="798" height="295" key="GridCell.Tab.0.left" timestamp="1605069437008">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="918" height="295" key="GridCell.Tab.0.left/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858864" />
-    <state width="798" height="287" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
-    <state width="918" height="295" key="GridCell.Tab.0.right" timestamp="1604980858865">
-      <screen x="-1920" y="-345" width="1920" height="1080" />
+    <state width="798" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605069437008" />
+    <state width="798" height="295" key="GridCell.Tab.0.right" timestamp="1605069437009">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="918" height="295" key="GridCell.Tab.0.right/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604980858865" />
-    <state width="798" height="287" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603664432074" />
+    <state width="798" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605069437009" />
     <state x="-1118" y="-166" key="SettingsEditor" timestamp="1602523378821">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
     <state x="-1118" y="-166" key="SettingsEditor/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1602523378821" />
-    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2" timestamp="1604120147480">
+    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2" timestamp="1604981083536">
       <screen x="-1920" y="-345" width="1920" height="1080" />
     </state>
-    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604120147480" />
+    <state x="-880" y="-78" key="Vcs.Push.Dialog.v2/-1920.-345.1920.1080/0.0.1680.1050@-1920.-345.1920.1080" timestamp="1604981083536" />
     <state x="880" y="260" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603255178989" />
     <state x="-815" y="-104" width="670" height="676" key="search.everywhere.popup" timestamp="1604978982722">
       <screen x="-1920" y="-345" width="1920" height="1080" />
